@@ -1,9 +1,9 @@
 {
   "name": "Priyanshu Study Timer",
   "short_name": "Study Timer",
-  "description": "Study timer PWA with focus mode, slideshow, alarm, and big ring timer.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#04101f",
   "theme_color": "#04101f",
