@@ -1264,14 +1264,18 @@
   </div>
 
   <!-- Settings panel moved outside .app to avoid overflow:auto clipping -->
-  <div class="settings-panel" id="settingsPanel">
-    <button onclick="document.getElementById('settingsPanel').style.display='none'" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:20px;cursor:pointer;color:inherit;z-index:10;">✕</button>
-    <div class="settings-label">Choose ringtone</div>
-    <select id="soundSelect">
-      <option value="beep">Default Beep</option>
-      <option value="bell">Bell Sound</option>
-      <option value="digital">Digital Alarm</option>
-    </select>
+<div class="settings-panel" id="settingsPanel">
+
+  <button onclick="document.getElementById('settingsPanel').style.display='none'">Close</button>
+
+  <div class="settings-label">Choose ringtone</div>
+  <select id="soundSelect">
+    <option value="beep">Default Beep</option>
+    <option value="bell">Bell Sound</option>
+    <option value="digital">Digital Alarm</option>
+  </select>
+
+</div>
 
     <div class="settings-label">Or upload your own sound</div>
     <input type="file" id="customSound" accept="audio/*">
