@@ -1,0 +1,8 @@
+[{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target": {
+"namespace": "android_app",
+"package_name": "app.netlify.focusflowtimer01.twa",
+"sha256_cert_fingerprints": ["A8:4D:55:F7:EA:A4:45:6D:C2:9B:23:E7:EA:7A:A0:B9:3E:C0:75:F0:C8:87:53:E5:2E:BB:B7:5C:8C:FC:20:9C"]
+}
+}]
