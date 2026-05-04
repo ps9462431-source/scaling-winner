@@ -1,0 +1,50 @@
+{
+  "name": "Priyanshu Study Timer",
+  "short_name": "Study Timer",
+  "description": "Study timer PWA with focus mode, slideshow, alarm, and big ring timer.",
+  "start_url": "https://scaling-winner-cxg.pages.dev/",
+  "scope": "https://scaling-winner-cxg.pages.dev/",
+  "display": "standalone",
+  "background_color": "#04101f",
+  "theme_color": "#04101f",
+  "orientation": "any",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Study Timer Desktop View"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Study Timer Mobile View"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "prefer_related_applications": false
+}
